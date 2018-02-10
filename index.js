@@ -7,7 +7,9 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object,key, value) {
-  var ar = { color: red}
+  var ar = Object.assign(recipes)
+  
+  return ar
   
 }
 
