@@ -1,10 +1,9 @@
 var recipes = { flour: 'white', sugar: 'brown', cream: 'buttercream'}
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  var newObj = Object.assign ({}, recipes)
-  newObj[key] = value
+  object[key] = value
   
-  return newObj
+  return object
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object,key, value) {
